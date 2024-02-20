@@ -27,8 +27,8 @@
 /**
  * 
  */
-require_once 'Crypt/KeyStore/Exception.php';
-require_once 'Crypt/KeyStore/SPI/KeyStoreSPI.php';
+require_once './KeyStore/Exception.php';
+require_once './KeyStore/SPI/KeyStoreSPI.php';
 
 /**
  * <p>This class represents a storage facility for cryptographic keys and
@@ -76,7 +76,7 @@ class Crypt_KeyStore
     {
         $instance = null;
         
-        @include_once "Crypt/KeyStore/SPI/{$type}.php";
+        @include_once "./KeyStore/SPI/{$type}.php";
         $clazz = "Crypt_KeyStore_SPI_{$type}";
         
         if (!class_exists($clazz)) {
