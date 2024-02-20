@@ -1,0 +1,19 @@
+{
+    "name": "megumi/phpkeystore",
+    "description": "This is the copy of Crypt_KeyStore Library developed by ne0phyte",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Megumi\\Phpkeystore\\": "Crypt/",
+            "Crypt\\":"Crypt/"
+        }
+    },
+    "authors": [
+        {
+            "name": "megumin8"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
