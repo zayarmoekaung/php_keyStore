@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Megumi\\Phpkeystore\\": "Crypt/",
+            "Megumi8\\Phpkeystore\\": "Crypt/",
             "Crypt\\":"Crypt/"
         }
     },
