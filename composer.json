@@ -14,6 +14,6 @@
             "name": "megumin8"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
