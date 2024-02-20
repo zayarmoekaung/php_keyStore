@@ -1,5 +1,5 @@
 {
-    "name": "megumi/phpkeystore",
+    "name": "megumi8/phpkeystore",
     "description": "This is the copy of Crypt_KeyStore Library developed by ne0phyte",
     "type": "library",
     "license": "MIT",
